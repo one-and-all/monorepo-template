@@ -33,4 +33,4 @@
 
 ## 링크
 
-- 컴포넌트 가이드(스토리북): http://www.onasys.co.kr/design/template
+- 컴포넌트 가이드(스토리북): http://www.onasys.co.kr/design/template/
