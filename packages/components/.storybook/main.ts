@@ -16,11 +16,8 @@ const config: StorybookConfig = {
   async viteFinal(config) {
     config.define = {
       ...config.define,
-      "process.env.VITE_ASSETS_PATH": JSON.stringify(
-        process.env.VITE_ASSETS_PATH,
-      ),
-      "import.meta.env.VITE_ASSETS_PATH": JSON.stringify(
-        process.env.VITE_ASSETS_PATH,
+      "import.meta.env.BASE_ASSETS_PATH": JSON.stringify(
+        process.env.BASE_ASSETS_PATH,
       ),
     };
 

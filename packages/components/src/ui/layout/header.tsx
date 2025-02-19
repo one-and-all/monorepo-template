@@ -1,3 +1,4 @@
+import { BASE_ASSETS_PATH } from "@/env";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -11,13 +12,11 @@ export function Header() {
     <header className="sticky top-0 box-border flex h-[5rem] w-full items-center justify-between border-b border-solid border-border">
       <div className="flex items-center">
         <div className="MobMenuBtn">
-          <img
-            src={`${import.meta.env.VITE_ASSETS_PATH}/images/mob_menuBtn.svg`}
-          />
+          <img src={`${BASE_ASSETS_PATH}/images/mob_menuBtn.svg`} />
         </div>
         <h1 className="flex items-center gap-4">
           <img
-            src={`${import.meta.env.VITE_ASSETS_PATH}/images/logo.png`}
+            src={`${BASE_ASSETS_PATH}/images/logo.png`}
             className="h-[3rem]"
             alt="logo"
           />
