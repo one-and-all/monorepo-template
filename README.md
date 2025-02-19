@@ -3,7 +3,7 @@
 ```
 src
  ┣ apps # 각자 개발은 app 폴더에
- ┃ ┣ onasys # 원앤올에서 제공하는 기능 관련 모듈은 sys 폴더로 제공
+ ┃ ┣ onasys # 원앤올에서 제공하는 기능 관련 모듈은 onasys 폴더로 제공
  ┃ ┃ ┣ board
  ┃ ┃ ┣ survey
  ┃ ┃ ┣ ...
