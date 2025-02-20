@@ -7,13 +7,28 @@
  ┃ ┃ ┣ survey
  ┃ ┃ ┣ ...
  ┃ ┃ ┗ package.json
+ ┃ ┃
+ ┃ ┗ 타개발사
+ ┃   ┣ 기능
+ ┃   ┣ 기능
+ ┃   ┣ ...
+ ┃   ┗ package.json
+ ┃  
  ┣ packages # 공통 모듈이 위치할 폴더
- ┃ ┣ components
- ┃ ┃ ┣ ...
+ ┃ ┣ onasys
+ ┃ ┃ ┣ components
+ ┃ ┃ ┣   ...
  ┃ ┃ ┗ package.json
- ┃ ┣ example
- ┃ ┃ ┣ ...
- ┃ ┃ ┗ package.json
+ ┃ ┃
+ ┃ ┗ 타사
+ ┃   ┣ ...
+ ┃   ┗ package.json
+ ┃
+ ┣ package.json
+ ┣ pnpm-lock.yaml
+ ┃ ...
+ ┗ pnpm-workspace.yaml
+
 ```
 
 ## 기술 스택
